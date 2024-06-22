@@ -1,0 +1,46 @@
+.gridContainer{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    height: 20px;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px;
+    border: 2px;
+    
+    background-color: blue;
+}
+h1{
+    font-style: italic;
+    color: #79096f;
+}
+.gridItem{
+    align-self: center;
+    
+    height: 290px;
+}
+img{
+    
+    width: 370px;
+    height: 220px;
+    
+}
+.img1{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    align-content: flex-start;
+    
+    
+    
+}
+.gridFlexItem{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.flexName{
+    text-align: center;
+    
+}
